@@ -1,0 +1,15 @@
+[1] "Probability of lysogeny vs. MOI: Hill-Langmuir model of order n=2"
+
+Formula: y ~ (1 + a * x) * exp(-a * x)
+
+Parameters:
+  Estimate Std. Error t value Pr(>|t|)    
+a  0.19093    0.04242   4.501   0.0009 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2116 on 11 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 0.000008149
+

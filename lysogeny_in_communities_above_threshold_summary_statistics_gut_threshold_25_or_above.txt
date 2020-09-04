@@ -1,0 +1,16 @@
+[1] "Bacterial concentrations (cells/ml), gut"
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+5.655e+06 6.769e+08 1.798e+09 2.452e+09 3.861e+09 7.650e+09 
+[1] ""
+[1] "Phage concentrations (phages/ml), gut"
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+2.040e+08 8.054e+08 1.282e+09 1.900e+09 2.219e+09 1.050e+10 
+[1] ""
+[1] "Adsorption rates (ml/hr), gut"
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+5.930e-08 1.250e-07 2.624e-07 3.734e-07 5.565e-07 1.180e-06 
+[1] ""
+[1] "Commitment times (hr), gut"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.5481  0.7385  0.9548  0.9702  1.1943  1.4540 
+[1] ""

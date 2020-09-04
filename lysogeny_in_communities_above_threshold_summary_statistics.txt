@@ -1,0 +1,100 @@
+
+> print("Bacterial concentrations (cells/ml), gut")
+[1] "Bacterial concentrations (cells/ml), gut"
+
+> summary(10^logM.vec.gut.rd.lys)
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+3.769e+05 9.240e+07 4.401e+08 1.334e+09 1.850e+09 7.650e+09 
+
+> print("Bacterial concentrations (cells/ml), marine")
+[1] "Bacterial concentrations (cells/ml), marine"
+
+> summary(10^logM.vec.marine.rd.lys)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  37908  466322 1471537 2099885 3398260 6750000 
+
+> print("")
+[1] ""
+
+> print("Phage concentrations (phages/ml), gut")
+[1] "Phage concentrations (phages/ml), gut"
+
+> summary(10^logV.vec.gut.rd.lys)
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+3.078e+07 2.803e+08 5.305e+08 1.048e+09 1.159e+09 1.050e+10 
+
+> print("Phage concentrations (phages/ml), marine")
+[1] "Phage concentrations (phages/ml), marine"
+
+> summary(10^logV.vec.marine.rd.lys)
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+  185649  3963292  9141991 13291026 19426123 38600000 
+
+> print("")
+[1] ""
+
+> print("Adsorption rates (ml/hr), gut")
+[1] "Adsorption rates (ml/hr), gut"
+
+> summary(10^logd.vec.gut.rd.lys)
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+5.930e-08 1.248e-07 2.637e-07 3.742e-07 5.569e-07 1.180e-06 
+
+> print("Adsorption rates (ml/hr), marine")
+[1] "Adsorption rates (ml/hr), marine"
+
+> summary(10^logd.vec.marine.rd.lys)
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+1.376e-09 4.618e-08 1.124e-07 1.366e-07 2.154e-07 3.660e-07 
+
+> print("")
+[1] ""
+
+> print("Commitment times (hr), gut")
+[1] "Commitment times (hr), gut"
+
+> summary(10^logtau.vec.gut.rd.lys)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.5480  0.7178  0.9214  0.9476  1.1645  1.4540 
+
+> print("Commitment times (hr), marine")
+[1] "Commitment times (hr), marine"
+
+> summary(10^logtau.vec.marine.rd.lys)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  10.98  109.33  262.22  311.43  489.03  807.55 
+
+> print("")
+[1] ""
+
+> print("COI top ranks (1,2,3), gut")
+[1] "COI top ranks (1,2,3), gut"
+
+> summary(COI.LHS.gut.dom1.lys)
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+  0.3302   0.8814   2.3531   7.2863   7.1917 182.0716 
+
+> summary(COI.LHS.gut.dom2.lys)
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+  0.2066   0.5517   1.4728   4.5605   4.5012 113.9583 
+
+> summary(COI.LHS.gut.dom3.lys)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.1571  0.4194  1.1197  3.4672  3.4221 86.6380 
+
+> print("COI top ranks (1,2,3), marine")
+[1] "COI top ranks (1,2,3), marine"
+
+> summary(COI.LHS.marine.dom1.lys)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.3123  0.5332  0.9975  2.6338  2.4240 85.8443 
+
+> summary(COI.LHS.marine.dom2.lys)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.1944  0.3319  0.6209  1.6394  1.5088 53.4327 
+
+> summary(COI.LHS.marine.dom3.lys)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.1473  0.2515  0.4705  1.2423  1.1434 40.4912 
+
+> sink()

@@ -1,0 +1,16 @@
+[1] "Bacterial concentrations (cells/ml), marine"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  37953  792282 1977080 2454699 3881900 6749650 
+[1] ""
+[1] "Phage concentrations (phages/ml), marine"
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+  620676  6305590 12829450 16482055 24949348 38600000 
+[1] ""
+[1] "Adsorption rates (ml/hr), marine"
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+6.213e-09 7.837e-08 1.556e-07 1.668e-07 2.495e-07 3.658e-07 
+[1] ""
+[1] "Commitment times (hr), marine"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  13.03  183.03  352.19  375.57  557.65  807.45 
+[1] ""
